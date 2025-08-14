@@ -1,0 +1,35 @@
+Class documentation
+<---- javadoc command: ---->
+C:\jdk-19.0.2\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-protected
+-Xdoclint:none
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+19
+-classpath
+C:\greenfoot\lib\greenfoot.jar;C:\greenfoot\lib\bluejcore.jar;C:\greenfoot\lib\bluejeditor.jar;C:\greenfoot\lib\bluejext2.jar;C:\greenfoot\lib\junit-jupiter-5.5.2.jar;C:\greenfoot\lib\junit-jupiter-api-5.5.2.jar;C:\greenfoot\lib\junit-jupiter-engine-5.5.2.jar;C:\greenfoot\lib\junit-jupiter-migrationsupport-5.5.2.jar;C:\greenfoot\lib\junit-jupiter-params-5.5.2.jar;C:\greenfoot\lib\junit-platform-commons-1.5.2.jar;C:\greenfoot\lib\junit-platform-console-1.5.2.jar;C:\greenfoot\lib\junit-platform-console-standalone-1.5.2.jar;C:\greenfoot\lib\junit-platform-engine-1.5.2.jar;C:\greenfoot\lib\junit-platform-launcher-1.5.2.jar;C:\greenfoot\lib\junit-platform-reporting-1.5.2.jar;C:\greenfoot\lib\junit-platform-runner-1.5.2.jar;C:\greenfoot\lib\junit-platform-suite-api-1.5.2.jar;C:\greenfoot\lib\junit-platform-testkit-1.5.2.jar;C:\greenfoot\lib\junit-quickcheck-core-0.9.jar;C:\greenfoot\lib\junit-vintage-engine-5.5.2.jar;C:\greenfoot\lib\hamcrest-core-1.3.jar;C:\greenfoot\lib\bluej.jar;C:\greenfoot\lib\classgraph-4.8.90.jar;C:\greenfoot\lib\diffutils-1.2.1.jar;C:\greenfoot\lib\commons-logging-api-1.1.2.jar;C:\greenfoot\lib\jl1.0.1.jar;C:\greenfoot\lib\opencsv-2.3.jar;C:\greenfoot\lib\xom-1.3.7.jar;C:\greenfoot\lib\lang-stride.jar;C:\greenfoot\lib\nsmenufx-2.1.8.jar;C:\greenfoot\lib\wellbehavedfx-0.3.3.jar;C:\greenfoot\lib\guava-17.0.jar;C:\greenfoot\lib\httpclient-4.1.1.jar;C:\greenfoot\lib\httpcore-4.1.jar;C:\greenfoot\lib\httpmime-4.1.1.jar;C:\javafx-sdk-20.0.2\lib\javafx.base.jar;C:\javafx-sdk-20.0.2\lib\javafx.controls.jar;C:\javafx-sdk-20.0.2\lib\javafx.fxml.jar;C:\javafx-sdk-20.0.2\lib\javafx.graphics.jar;C:\javafx-sdk-20.0.2\lib\javafx.media.jar;C:\javafx-sdk-20.0.2\lib\javafx.properties.jar;C:\javafx-sdk-20.0.2\lib\javafx.swing.jar;C:\javafx-sdk-20.0.2\lib\javafx.web.jar;C:\Users\rcarrascor\Downloads\Greenfoot\Frogger
+-d
+C:\Users\rcarrascor\Downloads\Greenfoot\Frogger\doc
+-encoding
+UTF-8
+-charset
+UTF-8
+C:\Users\rcarrascor\Downloads\Greenfoot\Frogger\Rana.java
+<---- end of javadoc command ---->
+Loading source file C:\Users\rcarrascor\Downloads\Greenfoot\Frogger\Rana.java...
+Constructing Javadoc information...
+warning: unknown enum constant Tag.Any
+  reason: class file for threadchecker.Tag not found
+warning: unknown enum constant Tag.Any
+Standard Doclet version 19.0.2+7-44
+Building tree for all the packages and classes...
+Generating C:\Users\rcarrascor\Downloads\Greenfoot\Frogger\doc\Rana.html...
+Generating C:\Users\rcarrascor\Downloads\Greenfoot\Frogger\doc\package-summary.html...
+Generating C:\Users\rcarrascor\Downloads\Greenfoot\Frogger\doc\index.html...
+2 warnings

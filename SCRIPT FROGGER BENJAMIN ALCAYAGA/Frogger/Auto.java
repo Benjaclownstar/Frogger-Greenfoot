@@ -17,13 +17,15 @@ public class Auto extends Actor
         }        
             setLocation(x, y);
         
-        //Condición de colisión con auto 
-        Actor Rana = getOneObjectAtOffset (0,0, Rana.class);  
+        /*Condición de colisión con auto, elimando porque ya no es necesario
+           ahora esta en la clase rana modificado*/
+        /*Actor Rana = getOneObjectAtOffset (0,0, Rana.class);  
         if(Rana!= null) {
             World Mundo;
             Mundo = getWorld();
             Mundo.removeObject(Rana);
             getWorld().addObject(new Rana(),255, 396);
-        }
+            mundo.perderCorazon();
+        }*/
     }
 }

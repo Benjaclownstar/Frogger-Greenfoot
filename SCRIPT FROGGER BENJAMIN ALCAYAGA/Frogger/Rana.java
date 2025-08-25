@@ -111,8 +111,16 @@ public class Rana extends Actor
         if (isTouching(Tronco.class)) {
         Tronco tronco = (Tronco) getOneIntersectingObject(Tronco.class);
         if (tronco != null) {
-            setLocation(getX() + tronco.getVelocidad(), getY());
+            setLocation(getX() + tronco.getsteps(), getY());
           }
+        }
+        
+        //Condición de colisión con auto, pero remueve un auto XD
+        Actor auto = getOneObjectAtOffset (0,0, Auto.class);  
+        if(auto != null) {
+            Mundo mundo = (Mundo)getWorld();
+            mundo.perderCorazon();
+            getWorld().removeObject(auto);
         }
     }
 }

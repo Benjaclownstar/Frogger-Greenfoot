@@ -17,7 +17,7 @@ public class Tronco extends Actor
         }         
             setLocation(x, y);            
 
-        //Si la rana esta encima del tronco 
+        //Si la rana esta encima del tronco, pero solo empuja XD 
         setLocation(getX() + steps, getY()); 
         Rana rana = (Rana) getOneIntersectingObject(Rana.class); 
         if(rana != null) { 

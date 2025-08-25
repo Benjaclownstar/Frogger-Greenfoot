@@ -1,5 +1,4 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-
 /**
  * Write a description of class Corazon here.
  * 
@@ -18,17 +17,16 @@ public class Corazon extends Actor
     public void act()
     {
         //Condición de colisión con auto 
-        Actor auto = getOneObjectAtOffset (0,0, Auto.class);  
-        if(auto!= null) {
-            World Mundo;
-            Mundo = getWorld();
-            Mundo.removeObject(this);
-            getWorld().addObject(new Rana(),255, 396);
-        
+        /*Actor auto = getOneObjectAtOffset (0,0, Auto.class);  
+        if(auto != null) {
+            Mundo mundo = (Mundo)getWorld();
+            mundo.perderCorazon();
+            getWorld().removeObject(auto);
         }
         
         /*public String getCorazon(){
             return "Corazon";
         }*/
+        // solo es para la parte visual en pantalla, no descomentar metodos
     }
 }

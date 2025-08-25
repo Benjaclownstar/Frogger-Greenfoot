@@ -3,5 +3,5 @@ comment0.target=Tronco
 comment1.params=
 comment1.target=void\ act()
 comment2.params=
-comment2.target=int\ getVelocidad()
+comment2.target=int\ getsteps()
 numComments=3

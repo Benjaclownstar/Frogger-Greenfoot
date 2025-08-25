@@ -1,10 +1,16 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
-public class Libelula extends Actor
+/**
+ * Write a description of class autoAzul here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class autoAzul extends Auto
 {
-    private int steps = 4;
+    private int steps = 8;
     /**
-     * Act - do whatever the Libelula wants to do. This method is called whenever
+     * Act - do whatever the autoAzul wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act()
@@ -19,10 +25,5 @@ public class Libelula extends Actor
             x = 0;
         }        
             setLocation(x, y);
-        
-        //condicional para activación de power-up si Rana lo toca
-        if (isTouching(Rana.class)){
-            world.showText("Power Up Activo", 200, 10);
-        }
     }
 }
